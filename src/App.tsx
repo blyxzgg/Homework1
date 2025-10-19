@@ -1,9 +1,9 @@
-import ToDoList from "./assets/pages/ToDoList";
+import ToDoListPage from "./assets/pages/ToDoListPage";
 
 const App = () => {
   return (
     <>
-      <ToDoList />
+      <ToDoListPage />
     </>
   )
 }
