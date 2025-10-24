@@ -2,11 +2,13 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import { store } from './store'
 import { Provider } from 'react-redux'
+import { GlobalStyle } from "./assets/styles/GlobalStyle";
 
 const App = () => {
   return (
     <>
       <Provider store={store}>
+        <GlobalStyle />
         <RouterProvider router={router} />
       </Provider>
       {/* <Header />
